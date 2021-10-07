@@ -86,7 +86,7 @@ const MovieInfoComponent = (props) => {
               Rated: <span>{movieInfo?.Rated}</span>
             </MovieInfo>
             <MovieInfo>
-              Released: <span>{movieInfo?.Released}</span>
+              Released Date: <span>{movieInfo?.Released}</span>
             </MovieInfo>
             <MovieInfo>
               Runtime: <span>{movieInfo?.Runtime}</span>
