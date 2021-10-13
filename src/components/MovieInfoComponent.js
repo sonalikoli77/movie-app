@@ -100,6 +100,9 @@ const MovieInfoComponent = (props) => {
             <MovieInfo>
               Actors: <span>{movieInfo?.Actors}</span>
             </MovieInfo>
+            <MovieInfo>
+                Actors: <span>{movieInfo?.Actor-Name}</span>
+            </MovieInfo>
           </InfoColumn>
           <Close onClick={() => props.onMovieSelect()}>X</Close>
         </>
