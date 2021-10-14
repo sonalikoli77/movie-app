@@ -49,8 +49,10 @@ const MovieComponent = (props) => {
       <CoverImage src={Poster} alt={Title} />
       <MovieName>{Title}</MovieName>
       <InfoColumn>
-        <MovieInfo>Year of Movie : {Year}</MovieInfo>
-        <MovieInfo>Type : {Type}</MovieInfo>
+        <MovieInfo>{Year}</MovieInfo>
+        <MovieInfo>
+          <small>{Type}</small>
+        </MovieInfo>
       </InfoColumn>
     </MovieContainer>
   );
